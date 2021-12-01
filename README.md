@@ -1,27 +1,17 @@
-# Phase 4 Project
+# Predicting Pneumonia Using Neural Networks
 
-Final phase down -- you're absolutely crushing it! You've made it all the way through one of the toughest phase of this course. You must have an amazing brain in your head!
+With a hospitalization rate of 700,000 people, annually, pneumonia is one of the leading causes of inpatient stays nationwide. 
+During current times and with the constant increasing cost of healthcare, it is important to be efficient and deliberate when diagnosing and treating ill patients. Hospital stays are reserved for extremely sick patients and since the start of the COVID-19 pandemic, hospitals are overwhelmed. In relation to this project, our goal is to be able to predict pneumonia quickly and efficiently to help reduce the cost, hospitalizations, and increase efficiency in terms of diagnosing and treating the patient. With that being said, how accurately can we predict pneumonia using a neural network (NN)?
 
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-4-project/main/images/brain.gif'>
+### Background
 
-## Project Overview
-
-For this phase, you will choose a project that requires building one of these four models:
-
-- Time Series Modeling
-- Recommendation System
-- Image Classification with Deep Learning
-- Natural Language Processing
+Pneumonia, in layman's terms, is an infection of one or both of lungs. It is caused by microbes such as viruses, bacteria, fungi, or can also be caused by environmental causes. Symptoms of pneumonia depend on each individual but those who are over the age of 65, immunocompromised, smokers, children/toddlers are at greater risks of fatal symptoms such as sepsis and respiratory distress.
 
 ### The Data
 
-We have provided a dataset suitable to each model, but you are also encouraged to source your own dataset. If you choose your own dataset, **run the dataset and business problem by your instructor for approval** before starting your project.
+We obtained data from Kaggle containing ~5,400 chest X-Rays (CXR) divded up between train, test, and validation imagesets. For the sake of this project, we opted to not use the validation set. 
 
-### How to Choose a Project
 
-When choosing a project, consider:
-
-1. **Depth:** Choose a project that similar to what you want to do for your capstone project (Phase 5). This will allow you to practice those methods in a group setting before needing to use it independently. This will help you build a better Capstone project and a portfolio that demonstrates the ability to deeply learn and implement one modeling approach.
 
 2. **Breadth:** Choose a problem that you don't necessarily plan to use in your capstone project. This will allow you to develop applied experience with multiple modeling approaches. This will help you refine your areas of interest and build a portfolio that demonstrates the ability to learn and implement multiple modeling approaches.
 
