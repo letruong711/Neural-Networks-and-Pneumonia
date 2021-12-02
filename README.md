@@ -9,8 +9,25 @@ Pneumonia, in layman's terms, is an infection of one or both of lungs. It is cau
 
 ### The Data
 
-We obtained data from Kaggle containing ~5,400 chest X-Rays (CXR) divded up between train, test, and validation imagesets. For the sake of this project, we opted to not use the validation set. 
+We obtained data from Kaggle containing ~5,800 chest X-Rays (CXR) divded up between train, test, and validation imagesets. For the sake of this project, we opted to not use the validation set. 
 
+### The Models and Results
+- **Multilayer Perceptron (MLP)**:
+![](images/Final_MLP.jpg)
+![](images/Confusion_MLP.jpg)
+![](images/Visualizing_MLP.jpg)
+- **Convolutional Neural Network (CNN)**:
+![](images/CNN.jpg)
+![](images/Confusion_CNN.jpg)
+![](images/Visualizing_CNN.jpg)
+![](images/Visualizing_Tuned_CNN.jpg)
+![](images/Confusion_Tuned.jpg)
+- **Transfer Learning CNN**:
+![](images/Pretrained.jpg)
+![](images/Confusion_Pretrained.jpg)
+![](images/Visualizing_pretrained.jpg)
+
+We chose to use an MLP as a baseline model for our predictions. The reason is a MLP is a simple model that can produce a general answer to a complicated problem. It will help us create a foundation to strive and improve from. 
 
 
 2. **Breadth:** Choose a problem that you don't necessarily plan to use in your capstone project. This will allow you to develop applied experience with multiple modeling approaches. This will help you refine your areas of interest and build a portfolio that demonstrates the ability to learn and implement multiple modeling approaches.
