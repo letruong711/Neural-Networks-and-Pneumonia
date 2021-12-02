@@ -12,12 +12,13 @@ Pneumonia, in layman's terms, is an infection of one or both of lungs. It is cau
 We obtained data from Kaggle containing ~5,800 chest X-Rays (CXR) divded up between train, test, and validation imagesets. For the sake of this project, we opted to not use the validation set. 
 
 ### The Models and Results
-- **Multilayer Perceptron (MLP)**:
+- **Multilayer Perceptron (MLP)**:\
 ![](images/Final_MLP.jpg)
-![](images/Confusion_MLP.jpg)
+![](images/Confusion_MLP.jpg)\
 ![](images/Visualizing_MLP.jpg)
-- **Convolutional Neural Network (CNN)**:
-![](images/CNN.jpg)
+
+**Convolutional Neural Network (CNN)**:\
+![](images/CNN.jpg)\
 ![](images/Confusion_CNN.jpg)
 ![](images/Visualizing_CNN.jpg)
 ![](images/Visualizing_Tuned_CNN.jpg)
